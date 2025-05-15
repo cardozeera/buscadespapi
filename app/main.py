@@ -2,7 +2,8 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import asyncio
-from consulta_telegram import consultar_bot
+from app.consulta_telegram import consultar_bot
+
 
 app = FastAPI()
 
