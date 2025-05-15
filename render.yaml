@@ -1,8 +1,6 @@
-
 services:
   - type: web
-    name: busca-telegram
+    name: buscadespapi
     env: python
-    plan: free
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "bash start.sh"
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash start.sh
